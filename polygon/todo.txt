@@ -1,0 +1,63 @@
+﻿main:
+	{JM}[DONE] współrzędne biegunowe dla p2
+	{JM}[DONE] podaj wielkość pamięci dla obiektu p1
+	{DP}[DONE] Zdefiniuj dowolny czworokąt (wierzchołki i składowa count)
+		[DONE] Zmień jeden z wierzchołków 
+	{}[] Oblicz obwód czworokąta
+	{}[] zdefiniuj zmienne dla konstruktora niedomyślnego klasy Polygon i utwórz adekwatny obiekt. Odczytaj ilość obiektów typu Punkt2 wygenerowanych przez program.
+	{}[] przetestuj zdefiniowane operatory. 
+	{}[] dopisz kod z lab32
+
+
+Punkt2:
+	{JM}[DONE] Współrzędne biegunowe
+	{JM}[DONE] jawny konstruktor domyślny bezargumentowy z pustym kodem 
+	{JM}[DONE] konstruktor z argumentami inicjalizującymi wszystkie składowe klasy
+	{DP}[DONE] destruktor (z pustym kodem (lub drukowanym komentarzem)
+	{JM_WES TO KTOS DOKONCZ XD}[*] statyczna składowa służąca do zliczania ilości zdefiniowanych obiektów danej klasy
+	{}[] operator odejmowania (w klasie)
+	{}[] operator iloczynu skalarnego (poza klasą) 
+	{}[] dopisz do klasy konstruktor z parametrem std::initializer_list. 
+	{}[] Zmodyfikuj wszystkie konstruktory tak, aby maksymalnie wykorzystywały możliwości listy inicjalizacyjnej konstruktora. 
+		[] W funkcji main() wykonaj wszystkie potrzebne testy nowych konstruktorów
+	{}[] dopisz stosowny konstruktor przenoszący (Wykład 16)(lab32) 
+		[] We wszystkich konstruktorach dodaj na końcu komentarze drukujące inforrmacje, że dany konstruktor się uruchomił i na jakim obiekcie się uruchomił, np. w głównym konstruktorze 
+
+
+Polygon:
+	{MK}[DONE] prywatna metoda getTriangleArea(Punkt2 p1, Punkt2 p2,Punkt2 p3 ) obliczająca pole dowolnego trójkąta
+	{MK}[*] publiczna metoda getConvexArea() obliczająca pole wielokąta pod warunkiem, że jest wypukły
+	{}[] publiczna metoda getArea() obliczająca pole dowlonego wielokąta
+	{}[] jawny konstruktor domyślny bezargumentowy z pustym kodem 
+	{}[] konstruktor z argumentami inicjalizującymi wszystkie składowe klasy
+	{}[] dealokacja dla składowych wskaźnikowych
+	{}[] statyczna składowa służąca do zliczania ilości zdefiniowanych obiektów danej klasy
+	{}[] Do klasy Polygon dodaj konstruktor kopiujący zapewniający kopię głęboką. Uwzględnij statyczną składową służącą do zliczania ilości zdefiniowanych obiektów danej klasy. 
+		[] przeprowadź testy w main.cpp
+	{}[] Zdefiniuj kontekstowy dla klasy Polygon operator << w wersji funkcji zaprzyjaźnionej 
+		[] W funkcji main() przetestuj zdefiniowany operator. 
+	{}[] dopisz do klasy konstruktor z parametrem std::initializer_list. 
+	{}[] Zmodyfikuj wszystkie konstruktory tak, aby maksymalnie wykorzystywały możliwości listy inicjalizacyjnej konstruktora.
+		[] W funkcji main() wykonaj wszystkie potrzebne testy nowych konstruktorów 
+	{}[] Zdefiniuj poprawny kopiujący operator przypisania oraz zaimplementuj operator indeksowania wg kodu powyżej (lab31)
+	{}[] zdefiniuj poprawny przenoszący operator przypisania
+		[] przetestuj w funkcji main()
+		{}[] konwersja normal i binarna
+	{}[] daj pole
+
+
+IDK gdzie (przenieś jeśli wiesz):
+	{}[] Zdefiniuj dwa obiekty typu Polygon przy pomocy konstruktora domyślnego. 
+		[] Sprawdź inicjalizację składowych. 
+		[] Odczytaj ilość obiektów typu Polygon wygenerowanych przez program. 
+	{}[] lab27.html - pkt 1
+	{}[] lab29.html - pkt 1
+	{}[] lab31.html - pkt 1
+	{}[] lab32.html - pkt 4
+	{}[] lab33.html - pkt 1
+
+
+klasa Matrix:
+	{}[] zdefiniuj klasę Matrix (zawartość lab33)
+	{}[] Przeładować operator indeksowania (Laboratorium 38) tak aby wydobywał ustalony wiersz składowej tab
+	{}[] Przeczytać sekcję 27.6 z podręcznika Grębosza i przeładować operator () z dwoma argumentami, określającymi indeksy danego elementu składowej tab (tzn. powinien zwracać wartość tab[i][j] dla ustalonych i,j). 
