@@ -26,10 +26,10 @@ Punkt2:
 
 Polygon:
 	{MK}[DONE] prywatna metoda getTriangleArea(Punkt2 p1, Punkt2 p2,Punkt2 p3 ) obliczająca pole dowolnego trójkąta
-	{MK}[*] publiczna metoda getConvexArea() obliczająca pole wielokąta pod warunkiem, że jest wypukły
+	{}[] publiczna metoda getConvexArea() obliczająca pole wielokąta pod warunkiem, że jest wypukły
 	{}[] publiczna metoda getArea() obliczająca pole dowlonego wielokąta
-	{}[] jawny konstruktor domyślny bezargumentowy z pustym kodem 
-	{}[] konstruktor z argumentami inicjalizującymi wszystkie składowe klasy
+	{MK}[DONE] jawny konstruktor domyślny bezargumentowy z pustym kodem 
+	{MK}[DONE] konstruktor z argumentami inicjalizującymi wszystkie składowe klasy
 	{}[] dealokacja dla składowych wskaźnikowych
 	{}[] statyczna składowa służąca do zliczania ilości zdefiniowanych obiektów danej klasy
 	{}[] Do klasy Polygon dodaj konstruktor kopiujący zapewniający kopię głęboką. Uwzględnij statyczną składową służącą do zliczania ilości zdefiniowanych obiektów danej klasy. 
